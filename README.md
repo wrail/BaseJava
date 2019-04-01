@@ -6,7 +6,7 @@
 
 [点击进入](https://github.com/wrail/BaseJava/tree/master/lambda)
 
-<h2><回顾并对基础知识进行更深一步的理解！从更深的层面看基础。</h2>
+<h3>回顾并对基础知识进行更深一步的理解！从更深的层面看基础。</h3>
 
 # Java核心基础总结（一） 
 异常剖析
