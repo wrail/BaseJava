@@ -6,8 +6,8 @@
 
 [点击进入](https://github.com/wrail/BaseJava/tree/master/lambda)
 
-<h2><回顾并对基础知识进行更深一步的理解！从更深的层面看基础。/h2>
-<hr>
+<h2><回顾并对基础知识进行更深一步的理解！从更深的层面看基础。</h2>
+
 # Java核心基础总结（一） 
 异常剖析
 finally，final，finallize区别和延伸
