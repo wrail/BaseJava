@@ -31,3 +31,9 @@ finally，final，finallize区别和延伸
 主要深入的来谈一谈String，StringBuffer，StringBulider，并深入了解设计者的思想。
 
 [点击进入](https://github.com/wrail/BaseJava/blob/master/Java%E6%A0%B8%E5%BF%83%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%89%EF%BC%89.md)
+
+## Java核心基础（四）
+
+主要是了解了解动态代理的相关知识
+
+[点击进入](https://github.com/wrail/BaseJava/blob/master/Java%E6%A0%B8%E5%BF%83%E5%9F%BA%E7%A1%80%EF%BC%88%E5%9B%9B%EF%BC%89.md)
