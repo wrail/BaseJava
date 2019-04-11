@@ -37,3 +37,10 @@ finally，final，finallize区别和延伸
 主要是了解了解动态代理的相关知识
 
 [点击进入](https://github.com/wrail/BaseJava/blob/master/Java%E6%A0%B8%E5%BF%83%E5%9F%BA%E7%A1%80%EF%BC%88%E5%9B%9B%EF%BC%89.md)
+
+## Java核心基础（五）
+
+原始数据类型和包装类的深度剖析
+
+[点击进入](https://github.com/wrail/BaseJava/blob/master/Java%E6%A0%B8%E5%BF%83%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%94%EF%BC%89.md)
+
