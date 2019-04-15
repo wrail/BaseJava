@@ -44,3 +44,26 @@ finally，final，finallize区别和延伸
 
 [点击进入](https://github.com/wrail/BaseJava/blob/master/Java%E6%A0%B8%E5%BF%83%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%94%EF%BC%89.md)
 
+## Java核心基础（六）
+
+几种常见的集合框架对比
+
+[点击进入](https://github.com/wrail/BaseJava/blob/master/Java%E6%A0%B8%E5%BF%83%E5%9F%BA%E7%A1%80%EF%BC%88%E5%85%AD%EF%BC%89.md)
+
+## Java核心基础（七）
+
+Collection集合源码分析之List分支
+
+[点击进入](https://github.com/wrail/BaseJava/blob/master/Java%E6%A0%B8%E5%BF%83%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%83%EF%BC%89.md)
+
+## Java核心基础（八）
+
+Collection集合源码分析之Set分支
+
+[点击进入](https://github.com/wrail/BaseJava/blob/master/Java%E6%A0%B8%E5%BF%83%E5%9F%BA%E7%A1%80%EF%BC%88%E5%85%AB%EF%BC%89.md)
+
+## Java核心基础（九）
+
+Collection集合源码分析之Queue分支
+
+[点击进入](https://github.com/wrail/BaseJava/blob/master/Java%E6%A0%B8%E5%BF%83%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B9%9D%EF%BC%89.md)
