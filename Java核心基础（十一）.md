@@ -11,6 +11,11 @@
 
 3.有序性：防止指令重排，在JVM中由很多指令重排的操作，比如happens-before等等 
 
+因此会有保证线程安全的两种方法：
+
+1. 可以使用封装来让对象不共享，将对象内部隐藏起来。
+2. 可以让对象变为不可变对象，都不能修改自然就是安全对象。
+
 ## 一些的基本术语
 
 ### JVM安全点
@@ -123,3 +128,15 @@ Synchronized很好用，它的三种使用方法在[Synchronized的使用](https
 ## ReentrantLock
 
 ReentrantLock是一个相对于Synchronized比较灵活的锁，而且功能上更强大一点，并且ReentrantLock是可以看到代码的，不像Synchronized直接是在JVM上，但是ReentrantLock灵活的代价就是比Synchronized稍微麻烦一点。下来就来看看ReentrantLock。
+
+下面是ReentrantLock类图
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190529092949773.png)
+
+可以看到，它有三个内部类，可以实现公平和非公平和同步，其中Sync是继承于AQS关于AQS和ReentrantLock在前面有写过用法，和使用AQS实现自定义锁，它的构造方法默认是构建非公平锁，可以使用ReentrantLock（true）指定公平锁。
+
+它有下面这些方法，它自身是实现了Lock接口和序列化接口的，因此它会有Lock接口中的方法，比如lock，lockInterruptibly，trylock等等，下面这些方法使用起来也都很简单。
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190529124016508.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNjA1OTY4,size_16,color_FFFFFF,t_70)
+
+> 使用它的时候一定不要忘了解锁，虽然说它功能稍微强一点，但是在平常情况下还是Synchronized比较好，因为它不会因为粗心而出错，并且在很多时候它和Synchronized的效率是差不多的。
